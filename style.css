@@ -1,0 +1,83 @@
+.cardbody{
+    border: 1px solid black;
+    padding: 1%;
+    margin: 1%;
+    font: 10px;
+    width: 20%;
+    background-color: indianred;
+    text-align: center;
+    
+}
+s{
+    color: chartreuse;
+}
+p{
+    color: skyblue;
+}
+button{
+    color: green;
+    padding: 1%;
+    background-color: greenyellow;
+    width: 50%;
+}
+u{
+    color: indigo;
+}
+body{
+    background-color: royalblue;
+}
+.cardbody img{
+    width: 40%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cardbody{
+        border: 1px solid black;
+        padding: 1%;
+        margin: 1%;
+        font: 20px;
+        width: 40%;
+        background-color: indianred;
+        text-align: center;
+        
+    }
+    s{
+        color: chartreuse;
+    }
+    p{
+        color: chocolate;
+    }
+    button{
+        color: green;
+        padding: 1%;
+        background-color: greenyellow;
+        width: 50%;
+    }
+    u{
+        color: rgb(35, 0, 130);
+    }
+    .cardbody img{
+        width: 30%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .card{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+    
+    }
+
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+
+}
